@@ -1,4 +1,4 @@
-![Screenshot 2024-07-27 113858](https://github.com/user-attachments/assets/e013260f-b35d-4a2a-acfc-edbb10907a6c)# BlazeAI
+# BlazeAI
 
 ## Scrapped and Preprocessed Dataset 
 https://drive.google.com/file/d/1uNl3OIGLxTv-2c00XZL8jQ-SbYT6jz3e/view?usp=sharing
@@ -88,12 +88,12 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 
 ![Screenshot 2024-07-27 113858](https://github.com/user-attachments/assets/557ad0bf-90b3-4f3a-a74b-efa079a38c7c)
 
-### Training
 ![Screenshot 2024-07-27 113933](https://github.com/user-attachments/assets/72325837-b55c-490c-80fb-39461ba958f0)
+### Training
+![Screenshot 2024-07-27 113956](https://github.com/user-attachments/assets/f9023241-f99e-454e-a7c3-785b37d57e10)
 
 ### System usage
 
-![Screenshot 2024-07-27 113956](https://github.com/user-attachments/assets/f9023241-f99e-454e-a7c3-785b37d57e10)
 
 ![Screenshot 2024-07-27 115325](https://github.com/user-attachments/assets/f9a69ad9-14cd-452b-b6c0-a35ab906172b)
 
