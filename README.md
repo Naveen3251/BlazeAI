@@ -168,3 +168,6 @@ Response: Marathon Digital Holdings, Inc. Reports Second Quarter 2022 Results an
 Company: Riot Platforms, Inc.
 Input: Q2 2022
 Response: Riot Platforms, Inc. Reports Second Quarter 2022 Results and Provides Business Update
+
+# DEMO Video
+https://www.loom.com/share/de5930c3934f4257b6717a0d70fc74ec?sid=e41433ca-a424-4016-acf8-560c5c231e66
