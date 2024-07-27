@@ -1,5 +1,6 @@
   # BlazeAI
-
+# FINE TUNING LLAMA-3.1 ON CRYPTO DATA
+This project involves fine-tuning the Llama 3.1 model using LoRA to enhance its performance on cryptocurrency-related queries. The fine-tuned model is used to generate accurate and relevant answers based on SEC filings of major crypto companies.
 # Phase 1 : Data Collection and Preprocessing
 
 ### Data Collection
@@ -111,6 +112,9 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 ![Screenshot 2024-07-27 115325](https://github.com/user-attachments/assets/f9a69ad9-14cd-452b-b6c0-a35ab906172b)
 
 ![Screenshot 2024-07-27 115353](https://github.com/user-attachments/assets/9685e340-bd0e-4fbe-93b4-d6bed5604aac)
+
+## Pushed Fine-Tuned Model with LoRA Adapter-Hugging_Face
+https://huggingface.co/Naveen3251/llama-3-8b-crypto-model/commit/99066155556f8d432585d0057b8cb3134bdeb240
 
 # Phase 4 : Output
 ##Query and Response for All Given Examples
