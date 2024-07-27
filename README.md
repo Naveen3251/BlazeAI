@@ -1,4 +1,4 @@
-# BlazeAI
+  # BlazeAI
 
 # Phase 1 : Data Collection and Preprocessing
 
@@ -172,27 +172,26 @@ https://www.loom.com/share/de5930c3934f4257b6717a0d70fc74ec?sid=e41433ca-a424-40
 
 # GuideLines :  
 
-## Create and Activate Virtual Environment
-### 1. Create and Activate Virtual Environment
+## 1. Create and Activate Virtual Environment
 
 First, create a virtual environment using `venv`:
 
 ***Create virtual environment***
-  ``sh
+  ```sh
   python -m venv crypto_env
-  ``
+  ```
 **Activate the virtual environment (Windows)**
-  ``sh
+  ```sh
   crypto_env\Scripts\activate
-  ``
+  ```
 **Activate the virtual environment (macOS/Linux)**
-  ``sh
+  ```sh
   source crypto_env/bin/activate
-  ``
+  ```
 ## 2.Install Requirements
-  ``sh
+  ```sh
   pip install -r requirements.txt
-  ``
+  ```
 ## 3. Running the Scripts
 
 1. **Download SEC Filings**:
