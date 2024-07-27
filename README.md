@@ -92,13 +92,11 @@ https://drive.google.com/file/d/1uNl3OIGLxTv-2c00XZL8jQ-SbYT6jz3e/view?usp=shari
 - **Training Time:**
   - Completed fine-tuning in approximately 1 hour and 30 minutes, reasonable for the dataset size and model complexity.
 
-## Conclusion
-
 The fine-tuning of the Llama 3.1 model on SEC filings for specified crypto companies was successful. Evaluation metrics indicate steady improvement in model performance throughout training. Efficient training techniques and configurations, such as LoRA and mixed precision, ensured optimal use of computational resources, resulting in effective model training within a reasonable timeframe.
 
 The final model has been pushed to Hugging Face for further usage and evaluation.
 
-## Visualizations
+## Evaluation
 
 ![Evaluation Report][  report-link](https://api.wandb.ai/links/kumarsakthivel3251-sri-eshwar-college-of-engineering/0z72cvjj)
 ### Validation
