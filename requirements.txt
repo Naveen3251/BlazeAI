@@ -1,3 +1,11 @@
 sec-edgar-downloader
 beautifulsoup4
 requests
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+wandb
+huggingface_hub
