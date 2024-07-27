@@ -1,6 +1,6 @@
 # BlazeAI
 
-# Data Collection and Preprocessing
+# Phase 1 : Data Collection and Preprocessing
 
 ### Data Collection
 The project involves downloading SEC filings for the following companies:
@@ -21,7 +21,7 @@ This workflow ensures that the SEC filings data is properly collected, cleaned, 
 ### Dataset Link
 https://drive.google.com/file/d/1uNl3OIGLxTv-2c00XZL8jQ-SbYT6jz3e/view?usp=sharing
 
-# Fine-Tuning Report: Llama 3.1 Model on Crypto Company Filings
+# Phase 2 : Fine-Tuning Report: Llama 3.1 Model on Crypto Company Filings
 
 ## Training Configuration
 
@@ -58,7 +58,7 @@ https://drive.google.com/file/d/1uNl3OIGLxTv-2c00XZL8jQ-SbYT6jz3e/view?usp=shari
 - **Target Modules:** 
   - `['up_proj', 'down_proj', 'gate_proj', 'k_proj', 'q_proj', 'v_proj', 'o_proj']`
 
-## Evaluation Metrics
+## Phase 3 : Evaluation Metrics
 
 ### Loss
 
@@ -96,9 +96,7 @@ The fine-tuning of the Llama 3.1 model on SEC filings for specified crypto compa
 
 The final model has been pushed to Hugging Face for further usage and evaluation.
 
-## Evaluation
-
-![Evaluation Report][  report-link](https://api.wandb.ai/links/kumarsakthivel3251-sri-eshwar-college-of-engineering/0z72cvjj)
+## Interactive Charts
 ### Validation
 ![Screenshot 2024-07-27 113919](https://github.com/user-attachments/assets/c1451df8-4a31-420a-b73c-c8475c96d4ce)
 
@@ -114,7 +112,7 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 
 ![Screenshot 2024-07-27 115353](https://github.com/user-attachments/assets/9685e340-bd0e-4fbe-93b4-d6bed5604aac)
 
-# Output
+# Phase 4 : Output
 ##Query and Response for All Given Examples
 ### Query: What are Coinbase's main revenue streams?
 **Response**: Coinbase's main revenue streams are transaction fees and interest income. Transaction fees are generated from the spread between the price at which Coinbase buys and sells cryptocurrency, as well as the network fees associated with processing transactions. Coinbase also earns interest income on its holdings of cryptocurrency, which it generates by lending out its cryptocurrency to other entities. In addition to these primary revenue streams, Coinbase also earns revenue from other sources, such as its Coinbase Pro platform, which allows users to trade cryptocurrency at a lower fee than Coinbase's primary platform.
@@ -169,5 +167,49 @@ Company: Riot Platforms, Inc.
 Input: Q2 2022
 Response: Riot Platforms, Inc. Reports Second Quarter 2022 Results and Provides Business Update
 
-# DEMO Video
+# Phase 5 : DEMO Video
 https://www.loom.com/share/de5930c3934f4257b6717a0d70fc74ec?sid=e41433ca-a424-4016-acf8-560c5c231e66
+
+# GuideLines :  
+
+## Create and Activate Virtual Environment
+### 1. Create and Activate Virtual Environment
+
+First, create a virtual environment using `venv`:
+
+***Create virtual environment***
+  ``sh
+  python -m venv crypto_env
+  ``
+**Activate the virtual environment (Windows)**
+  ``sh
+  crypto_env\Scripts\activate
+  ``
+**Activate the virtual environment (macOS/Linux)**
+  ``sh
+  source crypto_env/bin/activate
+  ``
+## 2.Install Requirements
+  ``sh
+  pip install -r requirements.txt
+  ``
+## 3. Running the Scripts
+
+1. **Download SEC Filings**:
+    ```sh
+    python data_collection.py
+    ```
+2. **Preprocess SEC Filings**:
+   ```sh
+    python data_collection.py
+    ```
+3. **Fine-tune the Model**:
+   Note : Ensure system requirement atleast GPU-P100
+    ```sh
+    python finetune.py
+    ```
+
+5. **Query the Fine-tuned Model**:
+    ```sh
+    python model_query.py
+    ```
