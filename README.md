@@ -1,4 +1,6 @@
-  # BlazeAI
+# BlazeAI 
+![blaze](https://github.com/user-attachments/assets/fd6abc19-e8af-4ba2-a471-d25f52263f8a)
+
 # FINE TUNING LLAMA-3.1 ON CRYPTO DATA
 This project involves fine-tuning the Llama 3.1 model using LoRA to enhance its performance on cryptocurrency-related queries. The fine-tuned model is used to generate accurate and relevant answers based on SEC filings of major crypto companies.
 # Phase 1 : Data Collection and Preprocessing
