@@ -82,5 +82,5 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 
 ## Visualizations
 
-![Evaluation Report][(report-link)](https://wandb.ai/kumarsakthivel3251-sri-eshwar-college-of-engineering/Fine-tune%20Llama%203%208B%20on%20Crypto%20Dataset/reports/Llama-3-1-8B-Crypto-Dataset-Fine-Tuning-Evaluation--Vmlldzo4ODI2ODQy)
+![Evaluation Report][report-link](https://api.wandb.ai/links/kumarsakthivel3251-sri-eshwar-college-of-engineering/0z72cvjj)
 
