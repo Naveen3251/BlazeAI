@@ -1,5 +1,6 @@
 sec-edgar-downloader
 beautifulsoup4
+torch
 requests
 transformers
 datasets
