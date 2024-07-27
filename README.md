@@ -1,6 +1,24 @@
 # BlazeAI
 
-## Scrapped and Preprocessed Dataset 
+# Data Collection and Preprocessing
+
+### Data Collection
+The project involves downloading SEC filings for the following companies:
+- Coinbase Global, Inc. (COIN)
+- Marathon Digital Holdings, Inc. (MARA)
+- Riot Platforms, Inc. (RIOT)
+
+Using the `sec_edgar_downloader` library, we fetch filings of types 10-K, 10-Q, and 8-K and save them as text files in the `sec_filings` directory.
+
+### Preprocessing
+The `SECFilingsProcessor` class is used to process the downloaded filings:
+1. **Read and Aggregate Texts**: Reads all text files from the specified directory for each company.
+2. **Clean Text**: Utilizes BeautifulSoup and regular expressions to clean the text by removing HTML tags, extra whitespace, non-ASCII characters, and special characters.
+3. **Structure Data**: Creates structured data entries with `instruction`, `input`, and `output` fields suitable for further analysis or model training.
+4. **Save Processed Data**: The cleaned and structured data is saved in JSONL format.
+This workflow ensures that the SEC filings data is properly collected, cleaned, and structured for downstream tasks.
+
+### Dataset Link
 https://drive.google.com/file/d/1uNl3OIGLxTv-2c00XZL8jQ-SbYT6jz3e/view?usp=sharing
 
 # Fine-Tuning Report: Llama 3.1 Model on Crypto Company Filings
