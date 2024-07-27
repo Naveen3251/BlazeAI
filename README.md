@@ -119,7 +119,7 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 https://huggingface.co/Naveen3251/llama-3-8b-crypto-model/commit/99066155556f8d432585d0057b8cb3134bdeb240
 
 # Phase 4 : Output
-##Query and Response for All Given Examples
+Response for all questions
 ### Query: What are Coinbase's main revenue streams?
 **Response**: Coinbase's main revenue streams are transaction fees and interest income. Transaction fees are generated from the spread between the price at which Coinbase buys and sells cryptocurrency, as well as the network fees associated with processing transactions. Coinbase also earns interest income on its holdings of cryptocurrency, which it generates by lending out its cryptocurrency to other entities. In addition to these primary revenue streams, Coinbase also earns revenue from other sources, such as its Coinbase Pro platform, which allows users to trade cryptocurrency at a lower fee than Coinbase's primary platform.
 
