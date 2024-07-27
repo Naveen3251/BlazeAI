@@ -84,13 +84,14 @@ The final model has been pushed to Hugging Face for further usage and evaluation
 
 ![Evaluation Report][  report-link](https://api.wandb.ai/links/kumarsakthivel3251-sri-eshwar-college-of-engineering/0z72cvjj)
 ### Validation
+![Screenshot 2024-07-27 113919](https://github.com/user-attachments/assets/c1451df8-4a31-420a-b73c-c8475c96d4ce)
+
 ![Screenshot 2024-07-27 113858](https://github.com/user-attachments/assets/557ad0bf-90b3-4f3a-a74b-efa079a38c7c)
 
 ### Training
-![Screenshot 2024-07-27 113919](https://github.com/user-attachments/assets/c1451df8-4a31-420a-b73c-c8475c96d4ce)
+![Screenshot 2024-07-27 113933](https://github.com/user-attachments/assets/72325837-b55c-490c-80fb-39461ba958f0)
 
 ### System usage
-![Screenshot 2024-07-27 113933](https://github.com/user-attachments/assets/72325837-b55c-490c-80fb-39461ba958f0)
 
 ![Screenshot 2024-07-27 113956](https://github.com/user-attachments/assets/f9023241-f99e-454e-a7c3-785b37d57e10)
 
